@@ -1,4 +1,4 @@
-- name: install nginx
+- name: install and run nginx
   hoats: web
   become: yes
   tasks: 
