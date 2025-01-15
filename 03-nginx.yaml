@@ -1,5 +1,5 @@
 - name: install nginx
-  hoats: 
+  hoats: web
   become: yes
   tasks: 
   - name: install nginx
