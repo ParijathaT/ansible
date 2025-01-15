@@ -51,13 +51,13 @@
   - name: check ip adree is valid or not
     vars:
       ip: "234.87.56.1"
-    ansible.builtin.debud:
+    ansible.builtin.debug:
       msg: "{{ ip | ansible.utils.ipadrs }}"   
 
   - name: check ip adree is valid or not
     vars:
       ip: "2304.87.56.1"
-    ansible.builtin.debud:
+    ansible.builtin.debug:
       msg: "{{ ip | ansible.utils.ipadrs }}"   
 
    
