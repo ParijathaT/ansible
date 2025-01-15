@@ -14,5 +14,5 @@
           
   tasks: 
     - name: print the variables
-      ansibe.builtin.debug:
+      ansible.builtin.debug:
         msg: "course is {{ COURSE }}, duration is {{ DURATION }}, trainer is {{ TRAINER }}"
