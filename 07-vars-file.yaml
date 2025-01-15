@@ -2,8 +2,8 @@
   hosts: local
   connection: local
   vars_files:
-    - course.yaml  
+  - course.yaml  
   tasks: 
-    - name: print the course information
-      ansibe.builtin.debug:
-        msg: "course is {{ COURSE }}, duration is {{ DURATION }}, trainer is {{ TRAINER }}"
+  - name: print the course information
+    ansibe.builtin.debug:
+      msg: "course is {{ COURSE }}, duration is {{ DURATION }}, trainer is {{ TRAINER }}"
