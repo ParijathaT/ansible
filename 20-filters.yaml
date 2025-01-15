@@ -33,31 +33,31 @@
   - name: convert upper to lower
     vars:
       name: "Parijatha Teppa"
-    ansible.builin.debug:
+    ansible.builtin.debug:
       msg:"Hello {{ name | lower }}"  
 
   - name: convert lower to upper
     vars:
       name: "Parijatha Teppa"
-    ansible.builin.debug:
+    ansible.builtin.debug:
       msg:"Hello {{ name | upper }}" 
 
   - name: print min and max numbers from list
     vars:
       numbers: [23,67,34,87,90,234,8765,45,22,5]
-    ansible.buitin.debug:
+    ansible.builtin.debug:
       msg: " min is {{ numbers | min }}, max is {{ numbers | max }}"
 
   - name: check ip adree is valid or not
     vars:
       ip: "234.87.56.1"
-    ansible.buitin.debud:
+    ansible.builtin.debud:
       msg: "{{ ip | ansible.utils.ipadrs }}"   
 
   - name: check ip adree is valid or not
     vars:
       ip: "2304.87.56.1"
-    ansible.buitin.debud:
+    ansible.builtin.debud:
       msg: "{{ ip | ansible.utils.ipadrs }}"   
 
    
