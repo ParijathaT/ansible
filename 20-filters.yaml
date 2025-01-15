@@ -34,13 +34,13 @@
     vars:
       name: "PARIJATHA TEPPA"
     ansible.builtin.debug:
-      msg:"Hello {{ name | lower }}"  
+      msg: "Hello {{ name | lower }}"  
 
   - name: convert lower to upper
     vars:
       name: "parijatha teppa"
     ansible.builtin.debug:
-      msg:"Hello {{ name | upper }}" 
+      msg: "Hello {{ name | upper }}" 
 
   - name: print min and max numbers from list
     vars:
