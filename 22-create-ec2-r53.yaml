@@ -14,7 +14,7 @@
     - frontend
   tasks:
   - name: install aws python libraries
-    anible.builtin.pip:
+    ansible.builtin.pip:
       name: "{{ item }}"
       executable: pip3.9
     loop:
